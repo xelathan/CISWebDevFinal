@@ -1,0 +1,144 @@
+/*dark bg*/
+.bg-custom {
+    background-color: rgb(29, 29, 29);
+}
+/*apply font*/
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*color text blue*/
+.textblue {
+    background: -webkit-linear-gradient(lightskyblue,lightskyblue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/*space, resize nav items*/
+.nav-item {
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/*style information section*/
+.informationsection {
+    background-color: white;
+    font-size: 25px;
+    border-radius: 16px;
+    text-align: center;
+    margin-top: 5px;
+    border: 3px solid black;
+    padding-top: 10px;
+    padding-left: none;
+    padding-right: none;
+    height: fit-content;
+}
+
+#infohead {
+    border-bottom:2px solid black ;
+    margin-bottom: 10px;
+}
+
+.infosections {
+    padding-top: 9px;
+    text-align: left;
+    padding-bottom: 9px;
+    border-bottom: 2px solid black;
+}
+/*remove bottom background in information section*/
+.last {
+    border-bottom: none;
+}
+/*style text*/
+.maincontent {
+    color: lightskyblue;
+}
+/*style all headers*/
+.header {
+    font-weight: normal;
+    padding-top: 75px;
+    text-align: center;
+    border-bottom: 2px solid lightskyblue;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+/*style p element in overview*/
+p {
+    margin-left: 25px;
+    font-size: 25px;
+    line-height: 2;
+    margin-right: 25px;
+}
+/*highlight spans*/
+.highlight {
+    font-weight: bold;
+    color: white;
+}
+/*smooth scrolling*/
+html {
+    scroll-behavior: smooth;
+}
+/*style skills list*/
+#skillslist {
+    list-style: disc;
+    color: lightskyblue;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+#skillslist li {
+    line-height: 2;
+}
+/*zoom animation*/
+.zoom {
+    transition: transform .2s;
+}
+.zoom:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}
+/*table colors*/
+.bg-gray {
+    background-color: darkgray;
+}
+
+.colorgreen {
+    background-color: lightgreen;
+}
+
+.colorblue {
+    background-color: lightskyblue;
+}
+.colorred {
+    background-color: rgb(255, 132, 132)
+}
+/*center table elements*/
+.row-center {
+    width: 100%;
+    padding-top: 70px;
+    vertical-align: middle;
+}
+/*style referencelist and its links*/
+#referencelist {
+    list-style: none;
+    font-size: 25px;
+    padding-left: 0;
+    margin-left: 25px;
+}
+
+#referencelist li a {
+    color: gray;
+    font-size: 25px;
+}
+
+#referencelist li a:hover {
+    color: lightgray;
+}
+
+#referencelist li a:visited{
+    color: white;
+}
+/*extra padding*/
+.padding25 {
+    padding-left: 25px;
+    padding-right:25px;
+}
